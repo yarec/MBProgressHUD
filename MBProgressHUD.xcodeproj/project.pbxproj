@@ -11,6 +11,8 @@
 		73317F691B04C0D3007C32B0 /* MBProgresHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 73317F681B04C0D3007C32B0 /* MBProgresHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73317F6F1B04C0D3007C32B0 /* MBProgresHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73317F641B04C0D3007C32B0 /* MBProgresHUD.framework */; };
 		73317F761B04C0D4007C32B0 /* MBProgresHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73317F751B04C0D4007C32B0 /* MBProgresHUDTests.m */; };
+		73317F7F1B04C248007C32B0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D286A7521518C70F00E13FB8 /* MBProgressHUD.m */; };
+		73317F801B04C24D007C32B0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D286A7511518C70F00E13FB8 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D286A74D1518C70F00E13FB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A74C1518C70F00E13FB8 /* Foundation.framework */; };
 		D286A7531518C70F00E13FB8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D286A7521518C70F00E13FB8 /* MBProgressHUD.m */; };
 		D286A75E1518C89600E13FB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A75D1518C89600E13FB8 /* UIKit.framework */; };
@@ -176,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73317F691B04C0D3007C32B0 /* MBProgresHUD.h in Headers */,
+				73317F801B04C24D007C32B0 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73317F7F1B04C248007C32B0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
