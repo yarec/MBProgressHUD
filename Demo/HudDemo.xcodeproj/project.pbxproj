@@ -42,6 +42,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		73317F5D1B04C054007C32B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* HudDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudDemoAppDelegate.h; sourceTree = "<group>"; };
@@ -226,6 +239,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				73317F5D1B04C054007C32B0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudDemo_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HudDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -395,6 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HudDemo_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = HudDemo;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
